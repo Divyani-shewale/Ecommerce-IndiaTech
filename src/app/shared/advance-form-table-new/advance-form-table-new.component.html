@@ -1,0 +1,94 @@
+<ng-container *ngIf="!DataLoader">
+    <div class="card" style="margin-bottom: 0rem; overflow-x: auto;">
+      <form [formGroup]="generatedForm">
+        <table>
+          <thead>
+            <tr *ngFor="let TCR of TableCollumnData; let rowIndex = index">
+              <ng-container *ngFor="let TCD of TCR; let rowHeadIndex = index">
+                <th class="{{TCD.bg}}" [attr.colspan]="TCD.colspan || null">
+                  <ng-container *ngIf="TCD.colspan && TCD.icon === 'Download'">
+                    <i class="fa fa-download" (click)="buttonHeaderPressed(rowIndex, rowHeadIndex, TCD.downloadvalue)" title="Click to Download"></i>
+                    &nbsp;{{TCD.value}}
+                  </ng-container>
+                  <ng-container *ngIf="TCD.colspan && TCD.icon === 'Checkbox'">
+                    <mat-checkbox [(ngModel)]="TCD.value" style="margin-top: 0.25rem;" title="Click to Check all" (change)="checkHeaderChanged(rowIndex, rowHeadIndex, $event.checked)"></mat-checkbox>
+                  </ng-container>
+                  <ng-container *ngIf="TCD.colspan && TCD.icon === 'Loading'">
+                    <i class="fa fa-sync fa-spin"></i>
+                    &nbsp;{{TCD.value}}
+                  </ng-container>
+                  <ng-container *ngIf="!TCD.colspan">{{TCD.value}}</ng-container>
+                </th>
+              </ng-container>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="mat-row" *ngIf="showForm">
+              <td class="mat-cell white-cell" *ngFor="let dControls of dynamicForm; let count = index">
+                <ng-container [ngSwitch]="dControls.type">
+                  <ng-container *ngSwitchCase="'cell'">{{dControls.label}}</ng-container>
+                  <ng-container *ngSwitchCase="'button'">
+                    <button type="button" class="btn btn-primary" [disabled]="dControls.icon === 'Loading'" (click)="FormButtonPressed(count, 'FormAdd')">{{dControls.label}}
+                      <ng-container *ngIf="dControls.icon === 'Loading'">&nbsp;<i class="fa fa-sync fa-spin"></i></ng-container>
+                    </button>
+                  </ng-container>
+                  <ng-container *ngSwitchCase="'select'">
+                    <mat-form-field appearance="outline">
+                      <mat-select [formControlName]="'C'+count" placeholder="{{dControls.placeholder}}">
+                        <mat-option *ngIf="dControls.default" [value]="dControls.default.value">{{dControls.default.name}}</mat-option>
+                        <mat-option *ngFor="let option of dControls.options" [value]="option.value">{{option.name}}</mat-option>
+                      </mat-select>
+                    </mat-form-field>
+                  </ng-container>
+                  <ng-container *ngSwitchCase="'text'">
+                    <mat-form-field appearance="outline">
+                      <input matInput [formControlName]="'C'+count">
+                    </mat-form-field>
+                  </ng-container>
+                  <ng-container *ngSwitchCase="'textarea'">
+                    <div class="form-cell">
+                      <mat-form-field appearance="outline">
+                        <textarea matInput [formControlName]="'C'+count" placeholder="{{dControls.placeholder}}"></textarea>
+                      </mat-form-field>
+                    </div>
+                  </ng-container>
+                  <ng-container *ngSwitchCase="'date'">
+                    <ng-container *ngIf="(dControls.dependent === 'Status' && generatedForm.controls['C3'].value === '2')">
+                      <mat-form-field appearance="outline">
+                        <input matInput [formControlName]="'C'+count" readonly [matDatepicker]="picker" placeholder="Select Date">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                      </mat-form-field>
+                    </ng-container>
+                  </ng-container>
+                </ng-container>
+              </td>
+            </tr>
+            <tr class="mat-row" *ngFor="let TD of TableData; let rowIndex = index">
+              <td class="mat-cell {{KV.bg}}" *ngFor="let KV of TD; let cellIndex = index">
+                <ng-container *ngIf="!KV.icon">{{KV.value}}<span *ngIf="KV.sufText" style="color: #666;font-weight: lighter;font-size: 0.5rem;">{{KV.sufText}}</span></ng-container>
+                <ng-container *ngIf="KV.icon">
+                  <ng-container [ngSwitch]="KV.icon">
+                    <button type="button" (click)="buttonPressed(rowIndex, cellIndex, 'View')" class="btn btn-primary" *ngSwitchCase="'View'"><i-feather name="eye"></i-feather></button>
+                    <button type="button" (click)="buttonPressed(rowIndex, cellIndex, 'Add')" class="btn btn-primary font7" *ngSwitchCase="'Add'">Add {{KV.value}}</button>
+                    <i class="fa fa-download" (click)="buttonPressed(rowIndex, cellIndex, KV.downloadvalue)" title="Click to Download" *ngSwitchCase="'Download'"></i>&nbsp;{{KV.value}}
+                    <button type="button" (click)="buttonPressed(rowIndex, cellIndex, 'Delete')" class="deleteBtn" mat-raised-button color="warn" *ngSwitchCase="'Delete'"><i class="fa fa-trash" aria-hidden="true"></i></button>
+                    <mat-slide-toggle [checked]="(KV.value === 1) || (KV.value === true)" (change)="setToggleChange(rowIndex, cellIndex, $event)" *ngSwitchCase="'Toggle'"></mat-slide-toggle>
+                    <div class="scaleCheck">
+                      <mat-checkbox [(ngModel)]="KV.value" color="primary" style="margin-top: 0.25rem;" (change)="setCheckChange(rowIndex, cellIndex, $event.checked)" *ngSwitchCase="'Checkbox'"></mat-checkbox>
+                    </div>
+                    <button type="button" class="btn btn-primary font7" (click)="buttonPressed(rowIndex, cellIndex, 'Action')" style="font-size: 0.75rem;font-weight: 500;" *ngSwitchCase="'None'">{{KV.value}}</button>
+                    <i class="fa fa-sync fa-spin" *ngSwitchCase="'Loading'"></i>&nbsp;{{KV.value}}
+                  </ng-container>
+                </ng-container>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </ng-container>
+  
+  <ng-container *ngIf="DataLoader">
+    <mat-spinner style="left: 60%; margin: 6rem;"></mat-spinner>
+  </ng-container>  

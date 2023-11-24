@@ -1,0 +1,7 @@
+<span>
+  <mat-form-field class="edit-drop" style="width:auto;margin-bottom: 0.5rem;" appearance="outline">
+    <mat-select  [disabled]="opLoader" [formControl]="userVal">
+      <mat-option *ngFor="let list of inputArray" [value]="list[searchKey]">{{list[returnKey]}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+</span>

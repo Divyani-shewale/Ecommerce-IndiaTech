@@ -1,0 +1,29 @@
+<section class="content">
+  <ng-container *ngIf="!DataLoader">
+    <div class="container-fluid">
+      <div class="row">
+        <ng-container *ngFor="let cards of cardData">
+          <div class="col-lg-3 col-6">
+            <div class="small-box bg-white">
+              <!-- <span id="floating-icon"> -->
+                <i-feather [name]="cards.feather" id="floating-icon" [ngStyle]="{ 'color': cards.color }" style="float: right;"></i-feather>
+              <!-- </span> -->
+              <div class="inner">
+                <p class="{{!cards.btnDownload?'':'hover-pointer'}}">{{cards.name}}&nbsp;
+                  <ng-container *ngIf="cards.btnDownload">
+                    <i-feather *ngIf="!(cards.btnLoader)" name="download" class="downloadBtn"></i-feather>
+                  <i *ngIf="cards.btnLoader" class="fa fa-spinner fa-spin"></i>
+                  </ng-container>
+                </p>
+                <h5 style="color:#495057;font-weight: bold;">{{cards.value}}</h5>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </ng-container>
+  <ng-container *ngIf="DataLoader">
+    <mat-spinner style="left: 40%;margin: 6rem;"></mat-spinner>
+  </ng-container>
+</section>

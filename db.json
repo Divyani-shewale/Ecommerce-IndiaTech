@@ -1,0 +1,1650 @@
+{
+  "overview": {
+    "overviewdata": [
+      {
+        "name": "registered users",
+        "value": 2500,
+        "feather": "user-plus",
+        "color": "#1c84ee",
+        "isDownload": "N"
+      },
+      {
+        "name": "new subscription ",
+        "value": 150,
+        "feather": "pie-chart",
+        "color": "#33c38e",
+        "isDownload": "N"
+      },
+      {
+        "name": "anonymous user",
+        "value": 500,
+        "feather": "bar-chart",
+        "color": "#ffcc5a",
+        "isDownload": "N"
+      },
+      {
+        "name": "active users",
+        "value": 2000,
+        "feather": "send",
+        "color": "#1c84ee",
+        "isDownload": "N"
+      },
+      {
+        "name": "Total sales  Rs",
+        "btnDownload": true,
+        "btnLoader": false,
+        "value": 75000,
+        "feather": "lock",
+        "color": "#33c38e",
+        "isDownload": "Y"
+      },
+      {
+        "name": "Total transaction ",
+        "value": 3000,
+        "feather": "trending-up",
+        "color": "#ffcc5a",
+        "isDownload": "N"
+      },
+      {
+        "name": "Failed transaction",
+        "btnDownload": true,
+        "btnLoader": false,
+        "value": 150,
+        "feather": "credit-card",
+        "color": "#ef6767",
+        "isDownload": "Y"
+      },
+      {
+        "name": "pending transaction",
+        "value": 50,
+        "feather": "flag",
+        "color": "#33c38e",
+        "isDownload": "N"
+      },
+      {
+        "name": "Total content hr consumed",
+        "btnDownload": true,
+        "btnLoader": false,
+        "value": 5000,
+        "feather": "lock",
+        "color": "#ef6767",
+        "isDownload": "Y"
+      },
+      {
+        "name": "total vod hrs consumed",
+        "value": 3500,
+        "feather": "user-check",
+        "color": "#1c84ee",
+        "isDownload": "N"
+      },
+      {
+        "name": "live hrs consumed",
+        "value": 1500,
+        "feather": "pie-chart",
+        "color": "#ef6767",
+        "isDownload": "N"
+      },
+      {
+        "name": "free video hrs consumed",
+        "value": 1000,
+        "feather": "bar-chart-2",
+        "color": "#ffcc5a",
+        "isDownload": "N"
+      },
+      {
+        "name": "online users ",
+        "btnDownload": true,
+        "btnLoader": false,
+        "value": 1800,
+        "feather": "lock",
+        "color": "#ef6767",
+        "isDownload": "Y"
+      },
+      {
+        "name": "vod streams count",
+        "value": 200,
+        "feather": "user-check",
+        "color": "#1c84ee",
+        "isDownload": "N"
+      },
+      {
+        "name": "live streams count",
+        "value": 50,
+        "feather": "pie-chart",
+        "color": "#ef6767",
+        "isDownload": "N"
+      },
+      {
+        "name": "live devices",
+        "value": 120,
+        "feather": "bar-chart-2",
+        "color": "#ffcc5a",
+        "isDownload": "N"
+      }
+    ],
+    "overviewChart": {
+      "data": {
+        "labels": [
+          "2022-05-10",
+          "2022-05-11",
+          "2022-05-12",
+          "2022-05-13",
+          "2022-05-14",
+          "2022-05-15",
+          "2022-05-16",
+          "2022-05-17"
+        ],
+        "datasets": [
+          {
+            "label": "Subscription",
+            "data": [
+              "467",
+              "576",
+              "572",
+              "79",
+              "92",
+              "574",
+              "573",
+              "576"
+            ],
+            "backgroundColor": "blue",
+            "borderColor": "blue"
+          },
+          {
+            "label": "Registration",
+            "data": [
+              "542",
+              "542",
+              "536",
+              "327",
+              "17",
+              "0.00",
+              "538",
+              "541"
+            ]
+          },
+          {
+            "label": "Anonymous Users",
+            "data": [
+              "100",
+              "150",
+              "136",
+              "127",
+              "17",
+              "0.00",
+              "178",
+              "161"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "trending": {
+    "trendingdata": [
+      [
+        {
+          "value": "Serial",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1000",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1500",
+          "bg": "white-drop"
+        },
+        {
+          "value": "300",
+          "bg": "white-drop"
+        },
+        {
+          "value": "500",
+          "bg": "white-drop"
+        },
+        {
+          "value": "200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "600",
+          "bg": "white-drop"
+        }
+      ],
+      [
+        {
+          "value": "Sport",
+          "bg": "white-drop"
+        },
+        {
+          "value": "800",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1000",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1100",
+          "bg": "white-drop"
+        },
+        {
+          "value": "200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "300",
+          "bg": "white-drop"
+        },
+        {
+          "value": "150",
+          "bg": "white-drop"
+        },
+        {
+          "value": "170",
+          "bg": "white-drop"
+        },
+        {
+          "value": "130",
+          "bg": "white-drop"
+        }
+      ],
+      [
+        {
+          "value": "Movies",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1100",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1300",
+          "bg": "white-drop"
+        },
+        {
+          "value": "150",
+          "bg": "white-drop"
+        },
+        {
+          "value": "200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "100",
+          "bg": "white-drop"
+        },
+        {
+          "value": "100",
+          "bg": "white-drop"
+        },
+        {
+          "value": "350",
+          "bg": "white-drop"
+        }
+      ],
+      [
+        {
+          "value": "Series",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1100",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1000",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1500",
+          "bg": "white-drop"
+        },
+        {
+          "value": "200",
+          "bg": "white-drop"
+        },
+        {
+          "value": "400",
+          "bg": "white-drop"
+        },
+        {
+          "value": "150",
+          "bg": "white-drop"
+        },
+        {
+          "value": "170",
+          "bg": "white-drop"
+        },
+        {
+          "value": "200",
+          "bg": "white-drop"
+        }
+      ],
+      [
+        {
+          "value": "News",
+          "bg": "white-drop"
+        },
+        {
+          "value": "800",
+          "bg": "white-drop"
+        },
+        {
+          "value": "900",
+          "bg": "white-drop"
+        },
+        {
+          "value": "1400",
+          "bg": "white-drop"
+        },
+        {
+          "value": "180",
+          "bg": "white-drop"
+        },
+        {
+          "value": "100",
+          "bg": "white-drop"
+        },
+        {
+          "value": "160",
+          "bg": "white-drop"
+        },
+        {
+          "value": "120",
+          "bg": "white-drop"
+        },
+        {
+          "value": "400",
+          "bg": "white-drop"
+        }
+      ]
+    ],
+    "trendingChart": {
+      "data": {
+        "labels": [
+          "2022-05-10",
+          "2022-05-11",
+          "2022-05-12",
+          "2022-05-13",
+          "2022-05-14",
+          "2022-05-15",
+          "2022-05-16",
+          "2022-05-17"
+        ],
+        "datasets": [
+          {
+            "label": "Website",
+            "data": [
+              "100",
+              "406",
+              "202",
+              "302",
+              "502",
+              "0.00",
+              "280",
+              "450"
+            ]
+          },
+          {
+            "label": "App",
+            "data": [
+              "150",
+              "250",
+              "200",
+              "400",
+              "205",
+              "0.00",
+              "300",
+              "190"
+            ]
+          },
+          {
+            "label": "TV",
+            "data": [
+              "50",
+              "100",
+              "150",
+              "70",
+              "300",
+              "0.00",
+              "90",
+              "450"
+            ]
+          },
+          {
+            "label": "IOS",
+            "data": [
+              "80",
+              "70",
+              "220",
+              "280",
+              "350",
+              "0.00",
+              "200",
+              "400"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "useractivity": {
+    "data": {
+      "labels": [
+        "2022-05-10",
+        "2022-05-11",
+        "2022-05-12",
+        "2022-05-13",
+        "2022-05-14",
+        "2022-05-15",
+        "2022-05-16",
+        "2022-05-17"
+      ],
+      "datasets": [
+        {
+          "label": "New",
+          "data": [
+            "467",
+            "576",
+            "572",
+            "79",
+            "92",
+            "574",
+            "573",
+            "576"
+          ]
+        },
+        {
+          "label": "Registered",
+          "data": [
+            "542",
+            "542",
+            "536",
+            "327",
+            "17",
+            "0.00",
+            "538",
+            "541"
+          ]
+        },
+        {
+          "label": "Subscribers",
+          "data": [
+            "500",
+            "500",
+            "550",
+            "300",
+            "25",
+            "0.00",
+            "590",
+            "520"
+          ]
+        },
+        {
+          "label": "Binge Watchers",
+          "data": [
+            "600",
+            "600",
+            "590",
+            "200",
+            "50",
+            "0.00",
+            "666",
+            "90"
+          ]
+        }
+      ]
+    }
+  },
+  "useractivity1": {
+    "data": {
+      "labels": [
+        "2022-05-10",
+        "2022-05-11",
+        "2022-05-12",
+        "2022-05-13",
+        "2022-05-14",
+        "2022-05-15",
+        "2022-05-16",
+        "2022-05-17"
+      ],
+      "datasets": [
+        {
+          "label": "Free Watchers",
+          "data": [
+            "467",
+            "576",
+            "572",
+            "79",
+            "92",
+            "574",
+            "573",
+            "576"
+          ]
+        },
+        {
+          "label": "Anonymous Users",
+          "data": [
+            "542",
+            "542",
+            "536",
+            "327",
+            "17",
+            "0.00",
+            "538",
+            "541"
+          ]
+        },
+        {
+          "label": "Lost Subscription",
+          "data": [
+            "500",
+            "500",
+            "550",
+            "300",
+            "25",
+            "0.00",
+            "590",
+            "520"
+          ]
+        }
+      ]
+    }
+  },
+  "paymentinfo": {
+    "payment": [
+      [
+        {
+          "value": "Credit Card",
+          "bg": "white-drop"
+        },
+        {
+          "value": "500",
+          "bg": "white-drop"
+        },
+        {
+          "value": "25000",
+          "bg": "white-drop"
+        },
+        {
+          "value": "480",
+          "bg": "white-drop"
+        },
+        {
+          "value": "20",
+          "bg": "white-drop"
+        },
+        {
+          "value": "10",
+          "bg": "white-drop"
+        }
+      ],
+      [
+        {
+          "value": "PayPal",
+          "bg": "white-drop"
+        },
+        {
+          "value": "300",
+          "bg": "white-drop"
+        },
+        {
+          "value": "15000",
+          "bg": "white-drop"
+        },
+        {
+          "value": "380",
+          "bg": "white-drop"
+        },
+        {
+          "value": "15",
+          "bg": "white-drop"
+        },
+        {
+          "value": "7",
+          "bg": "white-drop"
+        }
+      ],
+      [
+        {
+          "value": "Bank Transfer",
+          "bg": "white-drop"
+        },
+        {
+          "value": "400",
+          "bg": "white-drop"
+        },
+        {
+          "value": "18000",
+          "bg": "white-drop"
+        },
+        {
+          "value": "420",
+          "bg": "white-drop"
+        },
+        {
+          "value": "15",
+          "bg": "white-drop"
+        },
+        {
+          "value": "8",
+          "bg": "white-drop"
+        }
+      ]
+    ],
+    "paymentchart": {
+      "type": "line",
+      "data": {
+        "labels": [
+          "2022-05-10",
+          "2022-05-11",
+          "2022-05-12",
+          "2022-05-13",
+          "2022-05-14",
+          "2022-05-15",
+          "2022-05-16",
+          "2022-05-17"
+        ],
+        "datasets": [
+          {
+            "label": "Successful",
+            "data": [
+              "100",
+              "140",
+              "102",
+              "150",
+              "130",
+              "0.00",
+              "110",
+              "140"
+            ]
+          },
+          {
+            "label": "Failed",
+            "data": [
+              "10",
+              "20",
+              "8",
+              "15",
+              "10",
+              "0.00",
+              "30",
+              "10"
+            ]
+          },
+          {
+            "label": "Pending",
+            "data": [
+              "5",
+              "8",
+              "10",
+              "15",
+              "10",
+              "0.00",
+              "20",
+              "3"
+            ],
+            "backgroundColor": "Red",
+            "borderColor": "Red"
+          }
+        ]
+      }
+    }
+  },
+  "monitization": [
+    [
+      {
+        "value": "28 Days"
+      },
+      {
+        "value": "Monthly Plan"
+      },
+      {
+        "value": "500"
+      },
+      {
+        "value": "500"
+      },
+      {
+        "value": "500"
+      },
+      {
+        "value": "99"
+      }
+    ],
+    [
+      {
+        "value": "180 Days"
+      },
+      {
+        "value": "Half Year Plan"
+      },
+      {
+        "value": "350"
+      },
+      {
+        "value": "350"
+      },
+      {
+        "value": "350"
+      },
+      {
+        "value": "399"
+      }
+    ],
+    [
+      {
+        "value": "365 Days"
+      },
+      {
+        "value": "One Year Plan"
+      },
+      {
+        "value": "250"
+      },
+      {
+        "value": "250"
+      },
+      {
+        "value": "250"
+      },
+      {
+        "value": "599"
+      }
+    ]
+  ],
+  "userSubscriber": [
+    {
+      "id": 2,
+      "name": "Divyani ",
+      "email": "divyani123@gmail.com",
+      "plan_name": "180 day",
+      "mobile": 7654326544,
+      "DOB": ""
+    },
+    {
+      "id": 3,
+      "name": "Ankita",
+      "mobile": 7654326544,
+      "email": "ankita123@gmail.com",
+      "plan_name": "365 days",
+      "birthdate": "12-05-2000",
+      "usertype": "subscriber",
+      "account_status": "active",
+      "account_subscription_start_end": "01/08/2023 - 01/11/2023",
+      "account_subscription_notification": "hello user",
+      "account_payment_method": "credit card",
+      "user_recently_watched": "movies",
+      "user_watch_history": "sport",
+      "user_watchlist": "anime",
+      "register_device": "smartphone, tablet",
+      "location": "satara",
+      "last_login_date": "22/09/2023",
+      "most_watched": "serial",
+      "content_preferences_generes": "action drama, comedy",
+      "useer_rating": "4",
+      "user_Recomandation": "action",
+      "customer_support": "chat history",
+      "user_feedback": "awesome",
+      "user_reports": "some start bugs",
+      "payment_history": "invoice",
+      "payment_status": "successful",
+      "payment_transaction_details": "109rs paid",
+      "pay_per_view": "not Allowed in plan",
+      "two_factor_auth": "satara",
+      "user_demographic_info": "male, 23year old, satara"
+    },
+    {
+      "id": 4,
+      "name": "Mustakim",
+      "mobile": 7654326544,
+      "email": "mustakim123@gmail.com",
+      "plan_name": "28 days",
+      "birthdate": "12-05-2000",
+      "usertype": "subscriber",
+      "account_status": "active",
+      "account_subscription_start_end": "01/08/2023 - 01/11/2023",
+      "account_subscription_notification": "hello user",
+      "account_payment_method": "credit card",
+      "user_recently_watched": "movies",
+      "user_watch_history": "sport",
+      "user_watchlist": "anime",
+      "register_device": "smartphone, tablet",
+      "location": "satara",
+      "last_login_date": "22/09/2023",
+      "most_watched": "serial",
+      "content_preferences_generes": "action drama, comedy",
+      "useer_rating": "4",
+      "user_Recomandation": "action",
+      "customer_support": "chat history",
+      "user_feedback": "awesome",
+      "user_reports": "some start bugs",
+      "payment_history": "invoice",
+      "payment_status": "successful",
+      "payment_transaction_details": "109rs paid",
+      "pay_per_view": "not Allowed in plan",
+      "two_factor_auth": "satara",
+      "user_demographic_info": "male, 23year old, satara"
+    }
+  ],
+  "contentPerformance": [
+    {
+      "id": 1,
+      "most_watched_content_title": "Yashwant Lilamrut",
+      "most_watched_content_category": "Fiction",
+      "movie_library_name": "DEVOTIONAL",
+      "content_rating": 4,
+      "content_review": "Awesome",
+      "content_views": 10000,
+      "content_total_watch_time": "150 hours",
+      "created_date": "2023-10-12"
+    },
+    {
+      "id": 2,
+      "most_watched_content_title": "Spider Man",
+      "most_watched_content_category": "Action",
+      "movie_library_name": "Hindi",
+      "content_rating": 4.5,
+      "content_review": "Great",
+      "content_views": 1000,
+      "content_total_watch_time": "2 hours",
+      "created_date": "2023-10-10"
+    },
+    {
+      "id": 3,
+      "most_watched_content_title": "Boys",
+      "most_watched_content_category": "Comedy",
+      "movie_library_name": "MARATHI",
+      "content_rating": 3.8,
+      "content_review": "Good",
+      "content_views": 800,
+      "content_total_watch_time": "1.5 hours",
+      "created_date": "2023-10-12"
+    },
+    {
+      "id": 4,
+      "most_watched_content_title": "Yashwant",
+      "most_watched_content_category": "Drama",
+      "movie_library_name": "TEASER",
+      "content_rating": 4,
+      "content_review": "Very Good",
+      "content_views": 1200,
+      "content_total_watch_time": "2.5 hours",
+      "created_date": "2023-10-15"
+    }
+  ],
+  "ContentInformation": [
+    {
+      "id": 1,
+      "contenttype": "Music",
+      "movietitle": "Drishyam",
+      "genretype": "Mystery",
+      "language": "Hindi",
+      "movieaccolades": "IFFI Best Director Award",
+      "contentrating": "9",
+      "contentadvisory": "Parental Control",
+      "maturityrating": "10",
+      "producers": "Abhishek pathak",
+      "directors": "nishikant kamat",
+      "leadactors": "Ajay devgan",
+      "supportingactors": "Ishita dutta",
+      "releaseddate": "01-08-2023",
+      "censordate": "05-08-2023",
+      "discription": "Mystery Movie",
+      "studio": "Drishyam Films",
+      "mobileHomePoster": "C:\\fakepath\\Capture.PNG",
+      "mobileCoverPoster": "C:\\fakepath\\Capture.PNG",
+      "mobilePotraitPoster": "C:\\fakepath\\Capture.PNG",
+      "circularPreviewImage": "C:\\fakepath\\Capture.PNG",
+      "part_content": [
+        {
+          "id": "",
+          "parttitle": "part1",
+          "partsequence": 2,
+          "isactive": ""
+        }
+      ],
+      "trailor_content": [
+        {
+          "id": "",
+          "parttype": "Extras",
+          "seasontype": "Season2",
+          "partsequnce": "2",
+          "uploadvideo": "C:\\fakepath\\Capture.PNG",
+          "mobileposter": "C:\\fakepath\\Capture.PNG",
+          "trailorisactive": "Yes"
+        }
+      ],
+      "upload_content": [
+        {
+          "id": "1",
+          "seasoncontent": "Season1",
+          "contenttitle": "episode1",
+          "contentsequnce": "2",
+          "contentdescription": "drama",
+          "contentleadactors": "arjun bijlani",
+          "contentsupoactor": "jay thakur",
+          "mobilecontentPoster": "roohaniyat",
+          "contentupload": "content",
+          "contentisactive": "Yes",
+          "iscontentfree": "Yes"
+        }
+      ],
+      "configuration": [
+        {
+          "id": "1",
+          "commingsoon": "part2",
+          "isvisible": false,
+          "isfreecontent": true,
+          "configisactive": true,
+          "iscontentvod": false,
+          "contentduration": "",
+          "trailorduration": ""
+        }
+      ],
+      "future_content": [
+        {
+          "id": "1",
+          "ispublishdate": "Yes",
+          "publishdate": "2022-12-13T11:29:13.412689+05:30",
+          "publishtime": null
+        }
+      ]
+    }
+  ],
+
+  "contenttype":[
+    {
+      "id":1,
+      "type":"Home"
+   },
+   {
+      "id":2,
+      "type":"Fiction"
+   },
+   {
+      "id":3,
+      "type":"Non Fiction"
+   },
+   {
+      "id":4,
+      "type":"Kids"
+   },
+   {
+      "id":5,
+      "type":"Sports"
+   },
+   {
+      "id":6,
+      "type":"Women's Magzine"
+   },
+   {
+      "id":7,
+      "type":"Music"
+   },
+   {
+      "id":8,
+      "type":"Agro"
+   }
+  ],
+
+  "trailortype":[
+    {
+      "id":1,
+      "type":"Extras"
+    }
+  ],
+
+  "seasontype":[
+    {
+      "id":1,
+      "type":"Season1"
+    },
+    {
+      "id":2,
+      "type":"Season2"
+    }
+  ],
+
+  "content_section": [
+    {
+      "id": 1,
+      "content_type_name": "Home",
+      "is_deleted": false,
+      "is_active": "true",
+      "created_by": 1,
+      "created_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "updated_by": 1,
+      "updated_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "id": 2,
+      "content_type_name": "Fiction",
+      "is_deleted": false,
+      "is_active": "true",
+      "created_by": 0,
+      "created_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "updated_by": 0,
+      "updated_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "id": 3,
+      "content_type_name": "Non Fiction",
+      "is_deleted": false,
+      "is_active": "true",
+      "created_by": 0,
+      "created_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "updated_by": 0,
+      "updated_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "id": 4,
+      "content_type_name": "Kids",
+      "is_deleted": false,
+      "is_active": "true",
+      "created_by": 0,
+      "created_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "updated_by": 0,
+      "updated_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "id": 5,
+      "content_type_name": "Sport",
+      "is_active": "true",
+      "is_deleted": false,
+      "created_by": 1,
+      "created_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "updated_date_time": "2022-12-13T11:29:13.412689+05:30",
+      "updated_by": 1,
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "managecontentId": "contentsection",
+      "id": 6
+    }
+  ],
+  "get_content_library_details": [
+    {
+      "id": 1,
+      "content_type_ref_id": 1,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29,
+      "movie_list_ref_id": [
+        25,
+        26,
+        13
+      ],
+      "is_active": "true",
+      "movie_library_name": "DEVOTIONAL"
+    },
+    {
+      "id": 4,
+      "movie_library_name": "TEASER",
+      "movie_list_ref_id": "31",
+      "is_active": "true",
+      "content_type_ref_id": 4,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29
+    },
+    {
+      "id": 8,
+      "movie_library_name": "TEASER",
+      "movie_list_ref_id": [
+        31,
+        29
+      ],
+      "content_type_ref_id": 3,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29
+    },
+    {
+      "id": 13,
+      "movie_library_name": "DEVOTIONAL",
+      "movie_list_ref_id": [
+        64,
+        31,
+        29
+      ],
+      "is_active": "true",
+      "content_type_ref_id": 2,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29
+    },
+    {
+      "id": 15,
+      "movie_library_name": "TEASER",
+      "movie_list_ref_id": [
+        64,
+        31,
+        29
+      ],
+      "is_active": "true",
+      "content_type_ref_id": 1,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29
+    },
+    {
+      "id": 16,
+      "movie_library_name": "Hindi",
+      "movie_list_ref_id": [
+        29,
+        24,
+        25
+      ],
+      "is_active": true,
+      "content_type_ref_id": 1,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29
+    },
+    {
+      "managecontentId": "contentsection",
+      "id": 17
+    }
+  ],
+  "get_movie_data": [
+    {
+      "id": 64,
+      "movie_title": "ME"
+    },
+    {
+      "id": 31,
+      "movie_title": "CHAVDEE"
+    },
+    {
+      "id": 29,
+      "movie_title": "TORAN"
+    },
+    {
+      "id": 24,
+      "movie_title": "PORTRAIT"
+    },
+    {
+      "id": 25,
+      "movie_title": "RASARANJAN"
+    },
+    {
+      "id": 26,
+      "movie_title": "BAL RANJAN"
+    },
+    {
+      "id": 13,
+      "movie_title": "ATARANGI"
+    }
+  ],
+  "movie_library": [
+    {
+      "id": 1,
+      "movie_library_name": "DEVOTIONAL",
+      "movie_list_ref_id": [
+        25,
+        26,
+        13
+      ],
+      "is_active": "true",
+      "content_type_ref_id": null,
+      "library_order_sequence": 31,
+      "library_ref_id_id": 29
+    },
+    {
+      "id": 2,
+      "movie_web_library_image": null,
+      "movie_mobile_library_image": null,
+      "movie_library_name": "TEASER",
+      "movie_library_description": "TEASER",
+      "web_sidebar_path": "",
+      "app_sidebar_path": "",
+      "is_deleted": false,
+      "is_active": true,
+      "created_by": 3,
+      "created_date_time": "2023-05-11T03:18:40.761769+05:30",
+      "updated_by": 3,
+      "updated_date_time": "2023-05-11T03:21:10.412000+05:30",
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "id": 3,
+      "movie_library_name": "Hindi",
+      "movie_library_description": "Hindi Movie",
+      "is_active": true,
+      "movie_web_library_image": null,
+      "movie_mobile_library_image": null,
+      "web_sidebar_path": "",
+      "app_sidebar_path": "",
+      "is_deleted": false,
+      "created_by": 3,
+      "created_date_time": "2023-05-11T03:18:40.761769+05:30",
+      "updated_by": 3,
+      "updated_date_time": "2023-05-11T03:21:10.412000+05:30",
+      "sub_application_id": "WEB",
+      "application_id": "AMOL PRODUCTION",
+      "company_ref_id": 1
+    },
+    {
+      "id": 4,
+      "movie_library_name": "Marathi",
+      "movie_library_description": "marathi",
+      "is_active": false,
+      "movie_web_library_image": null,
+      "movie_mobile_library_image": null,
+      "web_sidebar_path": null,
+      "app_sidebar_path": null,
+      "is_deleted": null,
+      "created_by": null,
+      "created_date_time": null,
+      "updated_by": null,
+      "updated_date_time": null,
+      "sub_application_id": null,
+      "application_id": null,
+      "company_ref_id": null
+    }
+  ],
+  "library_wise_library_details": [
+    {
+      "id": 1,
+      "ref_library_id": 1,
+      "movie_title": "YASHWANT LILAMRUT",
+      "mobile_home_poster": "movie/mobile_home_poster/YASHWANT_LILAMRUT_uct0qeK.jpg",
+      "order_sequence": 1
+    },
+    {
+      "id": 2,
+      "ref_library_id": 2,
+      "movie_title": "YASHWANT",
+      "mobile_home_poster": "movie/mobile_home_poster/YASHWANT_LILAMRUT_uct0qeK.jpg",
+      "order_sequence": 1
+    },
+    {
+      "id": 3,
+      "ref_library_id": 3,
+      "movie_title": "LILAMRUT",
+      "mobile_home_poster": "movie/mobile_home_poster/YASHWANT_LILAMRUT_uct0qeK.jpg",
+      "order_sequence": 1
+    },
+    {
+      "id": 4,
+      "ref_library_id": 3,
+      "movie_title": "CHANGASHATAK",
+      "mobile_home_poster": "movie/mobile_home_poster/Changashatak.jpg",
+      "order_sequence": 2
+    },
+    {
+      "id": 5,
+      "ref_library_id": 2,
+      "movie_title": "GOCHI",
+      "mobile_home_poster": "movie/mobile_home_poster/GOCHI.jpg",
+      "order_sequence": 2
+    },
+    {
+      "id": 6,
+      "ref_library_id": 1,
+      "movie_title": "ATARANGI",
+      "mobile_home_poster": "movie/mobile_home_poster/ATARANGI.jpg",
+      "order_sequence": 2
+    }
+  ],
+  "get_admin_homeslider_data": [
+    {
+      "banner_sequence": 23,
+      "id": 109,
+      "is_active": true,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/Jodi_Shambhar_Shambhar.jpeg",
+      "movie_ref_id": 91,
+      "movie_title": "JODI SHAMBHAR SHAMBHAR",
+      "web_banner_image_path": ""
+    },
+    {
+      "id": 97,
+      "movie_ref_id": 47,
+      "movie_title": "SUR TECHA CHHEDATA",
+      "banner_sequence": 22,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/LOVE_STORY_AAHE_HEE_jSuqirG.jpg",
+      "web_banner_image_path": "",
+      "is_active": true
+    },
+    {
+      "id": 8,
+      "movie_ref_id": 11,
+      "movie_title": "APARAJEETA",
+      "banner_sequence": 21,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/APARAJEETA.jpg",
+      "web_banner_image_path": "",
+      "is_active": false
+    },
+    {
+      "id": 86,
+      "movie_ref_id": 62,
+      "movie_title": "YASHWANT LILAMRUT",
+      "banner_sequence": 20,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/YASHWANT_LILAMRUT_S8vUfbn.jpg",
+      "web_banner_image_path": "",
+      "is_active": true
+    },
+    {
+      "id": 9,
+      "movie_ref_id": 12,
+      "movie_title": "BUS STOP",
+      "banner_sequence": 19,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/BUS_STOP.jpg",
+      "web_banner_image_path": "",
+      "is_active": false
+    },
+    {
+      "id": 13,
+      "movie_ref_id": 13,
+      "movie_title": "ATARANGI",
+      "banner_sequence": 18,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/ATARANGI_GzUZpaC.jpg",
+      "web_banner_image_path": "",
+      "is_active": true
+    },
+    {
+      "id": 17,
+      "movie_ref_id": 14,
+      "movie_title": "GANJIFE",
+      "banner_sequence": 17,
+      "mobile_banner_image_path": "movie/mobile_banner_image_path/GANJIFE.jpg",
+      "web_banner_image_path": "",
+      "is_active": false
+    }
+  ],
+  "UserLogin": {
+    "ErrorCode": "1",
+    "FName": "Santosh",
+    "LName": "Jivangikar",
+    "LoginToken": "0000-00-000-00-000",
+    "UserId": "1",
+    "RoleCode": "1",
+    "MenuItems": [
+      {
+        "AppUrl": "#",
+        "AppIco": "command",
+        "MenuName": "Dashboard",
+        "ChildMenu": [
+          {
+            "AppUrl": "dashboard/oview",
+            "MenuName": "Overview",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "dashboard/trend",
+            "MenuName": "Trending",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "dashboard/useract",
+            "MenuName": "User Activity",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "dashboard/pginfo",
+            "MenuName": "PG Info",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "dashboard/monet",
+            "MenuName": "Monetization",
+            "ChildMenu": []
+          }
+        ]
+      },
+      {
+        "AppUrl": "#",
+        "AppIco": "users",
+        "MenuName": "User Reports",
+        "ChildMenu": [
+          {
+            "AppUrl": "reports/subusr",
+            "MenuName": "Subscribed",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "reports/regusr",
+            "MenuName": "Registered",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "reports/churn",
+            "MenuName": "Churn",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "reports/contentperformance",
+            "MenuName": "content Performance Report",
+            "ChildMenu": []
+          }
+        ]
+      },
+      {
+        "AppUrl": "#",
+        "AppIco": "Content",
+        "MenuName": "Manage Content",
+        "ChildMenu": [
+          {
+            "AppUrl": "managecontent/uploadcontent",
+            "MenuName": "Upload Content",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "managecontent/contentlibrary",
+            "MenuName": "Content Library",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "managecontent/managecontentsection",
+            "MenuName": "Content Section",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "managecontent/contentordersequence",
+            "MenuName": "Content Order Sequence",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "managecontent/managehomebanner",
+            "MenuName": "Home Banner",
+            "ChildMenu": []
+          },
+          {
+            "AppUrl": "managecontent/managebandadvertise",
+            "MenuName": "Band Advertisement",
+            "ChildMenu": []
+          }
+        ]
+      }
+    ]
+  },
+  "LoginAuth": {
+    "ErrorCode": "5",
+    "Result": "archKey"
+  },
+  "getMenuMappings": [
+    {
+      "AppUrl": "#",
+      "AppIco": "command",
+      "MenuName": "Dashboard",
+      "ChildMenu": [
+        {
+          "AppUrl": "overview",
+          "MenuName": "Overview"
+        },
+        {
+          "AppUrl": "trending",
+          "MenuName": "Trending"
+        },
+        {
+          "AppUrl": "useractivity",
+          "MenuName": "User Activity"
+        },
+        {
+          "AppUrl": "paymentinfo",
+          "MenuName": "PG Info"
+        },
+        {
+          "AppUrl": "monetization",
+          "MenuName": "Monetization"
+        }
+      ]
+    },
+    {
+      "AppUrl": "#",
+      "AppIco": "users",
+      "MenuName": "User Reports",
+      "ChildMenu": [
+        {
+          "AppUrl": "managereports/userreports",
+          "MenuName": "Subscribed"
+        },
+        {
+          "AppUrl": "regusr",
+          "MenuName": "Registered"
+        },
+        {
+          "AppUrl": "churn",
+          "MenuName": "Churn"
+        },
+        {
+          "AppUrl": "contentperformance",
+          "MenuName": "content Performance Report"
+        }
+      ]
+    },
+    {
+      "AppUrl": "#",
+      "AppIco": "Content",
+      "MenuName": "Manage Content",
+      "ChildMenu": [
+        {
+          "AppUrl": "managecontent/contentlist",
+          "MenuName": "Upload Content"
+        },
+        {
+          "AppUrl": "managecontent/contentlibrary",
+          "MenuName": "Content Library"
+        },
+        {
+          "AppUrl": "managecontent/managecontentsection",
+          "MenuName": "Content Section"
+        },
+        {
+          "AppUrl": "managecontent/contentordersequence",
+          "MenuName": "Content Order Sequence"
+        },
+        {
+          "AppUrl": "managecontent/managehomebanner",
+          "MenuName": "Home Banner"
+        },
+        {
+          "AppUrl": "managecontent/managebandadvertise",
+          "MenuName": "Band Advertisement"
+        }
+      ]
+    }
+  ],
+
+  "Allmaster":[
+    {
+      "id": 1,
+      "master_type": "Content Type",
+      "master_key": "Fiction"
+    },
+    {
+      "id": 2,
+      "master_type": "Content Type",
+      "master_key": "NonFiction"
+    },
+    {
+      "id": 3,
+      "master_type": "Content Type",
+      "master_key": "Sports"
+    },
+    {
+      "id": 4,
+      "master_type": "Content Type",
+      "master_key": "Music"
+    },
+    {
+      "id": 4,
+      "master_type": "Seson Type",
+      "master_key": "season1"
+    },
+    {
+      "id": 5,
+      "master_type": "Seson Type",
+      "master_key": "season2"
+    },
+    {
+      "id": 6,
+      "master_type": "Seson Type",
+      "master_key": "season2"
+    }
+  ],
+
+  "Rolemaster":[
+    {
+      "id": 1,
+      "role_name": "Admin",
+      "description": "admin"
+    },
+    {
+      "id": 2,
+      "role_name": "User",
+      "description": "user"
+    }
+  ],
+
+  "Currency":[
+    {
+        "id": 1,
+        "currency": "INR",
+        "description": "ruppes"
+    }
+  ],
+
+  "Bank":[
+    {
+      "id": 1,
+      "bank_name": "Union Bank",
+      "branch_name": "Kothrud",
+      "branch_code":"ABCD",
+      "account_number":"123456789012"
+    },
+    {
+      "id": 2,
+      "bank_name": "ICICI Bank",
+      "branch_name": "Bavdhan",
+      "branch_code":"ABCDHG",
+      "account_number":"123456789012"
+    }
+  ]
+
+}
